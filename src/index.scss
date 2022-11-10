@@ -1,0 +1,12 @@
+:root {
+    // bg-colors
+    --bg-color-main: #121212;
+
+    // sizes
+    --navbar-width: 260px;
+}
+
+
+html {
+    background-color: var(--bg-color-main);
+}
