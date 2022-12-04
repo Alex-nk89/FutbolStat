@@ -2,7 +2,6 @@ import { FC, memo } from 'react';
 import { Toolbar, Box } from '@mui/material';
 
 import { NavbarButton } from '../../../atoms';
-import { FullSearch } from '../../../molecules';
 
 import style from './Header.module.scss';
 
