@@ -1,12 +1,34 @@
 :root {
     // bg-colors
     --bg-color-main: #121212;
+    --bg-color-white05: #ffffff0d;
+    --bg-color-navbar: #1e1e1e;
+
+    // text-color
+    --text-white: #fff;
+    --text-gray: #bfbfbf;
+    --text-blue: #177ddc;
 
     // sizes
-    --navbar-width: 260px;
+    --navbar-width: 240px;
+    --base-size: 4px;
+    --size-xs: calc(var(--base-size) * 1);
+    --size-s: calc(var(--base-size) * 2);
+    --size-m: calc(var(--base-size) * 3);
+    --size-l: calc(var(--base-size) * 4);
+    --size-xl: calc(var(--base-size) * 5);
+    --size-xxl: calc(var(--base-size) * 6);
+
+    // border-radius
+    --border-r-4: var(--base-size);
 }
 
 
 html {
     background-color: var(--bg-color-main);
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Poppins';
 }

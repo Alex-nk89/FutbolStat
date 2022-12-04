@@ -1,0 +1,32 @@
+.treeView {
+    width: 100%;
+}
+
+.treeItem {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: var(--size-l);
+    height: 3.1rem;
+} 
+
+.treeItemWithoutIcon {
+    margin-left: var(--size-m);
+}
+
+.link {
+    a, 
+    a:visited,
+    a:hover {
+        color: var(--text-gray);
+        text-decoration: none;
+    }
+
+    svg {
+        fill: var(--text-gray);
+    }
+} 
+
+.nested {
+    padding: 0 0 0 2.2rem;
+}
